@@ -1,0 +1,155 @@
+/* .books{
+    width: 100%;
+    height: 100%;
+    background-color: var(--bgcolor-1);
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+#books-content{
+    width: 100%;
+    height: 100%;
+    padding: 70px 0;
+}
+
+#books-content ul{
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 25px 0;
+    list-style-type:none;
+}
+
+#books-content ul li {
+    width: 250px;
+    height: 450px;
+    text-align: center;
+    padding: 5px;
+    margin: auto 20px;
+    
+}
+
+#books-content ul li img{
+    width:200px;
+    box-shadow: 0 0 8px #ffffff;
+    overflow: hidden;
+    transition: transform.4s;
+
+}
+
+#books-content ul li img:hover{
+    transform:scale(1.1);
+}
+
+#books-content ul li h3{
+    font-size: 28px;
+}
+
+#books-content ul li .pp{
+    font-size: 20px;
+}
+
+#books-content ul li p{
+    font-weight: bold;
+}
+
+#books-content ul li .btn{
+    /* position: relative; 
+    display: inline-block;
+    padding: 8px 20px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: #ff274b;
+    color: #ffffff;
+    text-decoration: none;
+    transition: transform.4s;
+}
+
+#books-content ul li .btn:hover{
+    transform: scale(1.1);
+} */
+
+
+
+
+/* div {
+    background-color: #171a1c;
+    background-image: url("Business.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+/* h1 {
+    font-size: 30px;
+} */
+
+/* p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+} */
+
+/* h2 {
+    font-size: medium;
+    color: white;
+    text-align: center;
+} */
+
+/* h3 {
+    font-size: medium;
+    color: white;
+    text-align: center;
+} */
+
+/* .banner{
+    width: 100%;
+    height: 100%;
+} */
+
+/* .banner-text {
+    text-align: center;
+    color: white;
+    
+} */
+
+/* .banner-text h1 {
+    font-size: 130 px;
+} */
+
+/* .banner-text p {
+    font-size: 20px;
+
+    font-style: italic;
+} */
+
+/* .banner-btn {
+    margin: 30px auto 0;
+} */
+
+/* .banner-btn a {
+    padding: 8px 20px;
+    border: 3px solid #ff274b;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ff274b;
+    border-radius: 20px;
+    display: inline-block;
+    box-shadow: 0px 0px 5px #ff274b;
+    transition: transform.4s;
+} */
+
+/* .banner-btn a:hover {
+    transform: scale(1.1);
+} */
+
+/* .banner img {
+    width: 600px;
+    height: auto;
+    padding-top: 80px;
+
+} */

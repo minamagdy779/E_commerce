@@ -1,0 +1,170 @@
+:root{
+    --primarycolor:#ff274b;
+    --secondarycolor:#f7bcf7;
+    --lightcolor:#ffffff;
+    --bgcolor-1:#171a1c;
+    --bgcolor:#22282a;
+    --padding: 8%;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "josefin sans", sans-serif;
+    font-size: 16px;
+    color:var(--lightcolor);
+}
+.home{
+    width:100%;
+    height:100vh;
+    background-color: var(--bgcolor-1);
+    display: flex;
+    flex-direction: column;
+}
+span {
+    color:var(--primarycolor);
+}
+h2{
+    font-size: 2.0rem;
+    letter-spacing:0.12rem;
+    cursor: pointer;
+    padding-left: 1.0rem;
+}
+nav{
+    
+    padding-top: 2.8rem;
+    /* padding-left: var(--padding);
+    padding-right: var(--padding); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin:0.8rem 1.0rem;
+   
+    /* margin-right: 10px; */
+    
+}
+nav ul li a{
+    color:var(--lightcolor);
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+nav ul li a:hover{
+    color:var(--primarycolor);
+}
+/* Hady's Section start */
+.fa-solid{
+    font-size:15px; 
+    color: #ffffff;
+    padding: 10px;
+}
+
+.fa-solid:hover{
+    color: #ff274b;
+   
+}
+
+.searchbox{
+    position: relative; 
+    /* width: 200px; */
+}
+
+.searchtext{
+    width: 150px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    transition: all 0.2s linear;
+    background-color: transparent;
+    color: #ff274b;
+    font-weight: bold;
+}
+
+/* Hady's Section ends */
+
+body{
+    background-color: #171a1c;
+}
+h5{
+    font-size: 45px;
+    text-align: center;
+}
+
+#bookscontent{
+    margin:auto;
+    width: 1000px;
+    
+}
+
+#bookscontent ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+#bookscontent ul li {
+    float: left;
+    margin: auto;
+    height: 380px;
+    padding: 35px;
+}
+
+#bookscontent ul li img{
+    width: 150px;
+    margin-left: 50px;
+    margin-right:50px ;
+    height: 200px;
+    box-shadow: 0px 0px 5px #22282a , 0px 0px 15px #858585;
+    text-decoration: none;
+    transition: transform.4s;
+}
+
+#bookscontent ul li img:hover{
+    transform: scale(1.1);
+}
+
+#bookscontent ul li h1{
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#bookscontent ul li .pp{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+#bookscontent ul li p{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+.btn{
+    margin-left: 70px;
+    display: inline-block;
+    border: 1px solid transparent;
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: #ff274b;
+    color: #ffffff;
+    box-shadow:0px 0px 5px  #ff274b;
+    text-decoration: none;
+    transition: transform.4s;
+
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}

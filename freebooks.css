@@ -1,0 +1,156 @@
+nav{
+    
+    padding-top: 2.8rem;
+    /* padding-left: var(--padding);
+    padding-right: var(--padding); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin:0.8rem 1.0rem;  
+    margin-right: 10px;
+    
+}
+nav ul li a{
+    color:var(--lightcolor);
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+nav ul li a:hover{
+    color:var(--primarycolor);
+}
+.fa-solid{
+    font-size:15px; 
+    color: #ffffff;
+    padding: 10px;
+   
+}
+.fa-solid:hover{
+    color: #ff274b;
+   
+}
+.searchbox{
+    position: relative;
+}
+.searchtext{
+    width: 250px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    transition: all 0.2s linear;
+}
+.searchbox .searchtext{
+    visibility: hidden;
+}
+.searchbox:hover >.searchtext {
+     
+        visibility: visible;
+       
+}
+.freebooks {
+    width:100%;
+    height:100vh;
+    background-color: var(--bgcolor-1);
+    
+}
+/* centering h1 */
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+/* setting the div width and height*/
+.free-books{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0px;
+}
+/* setting the box to give a slide show (الهيكل)*/
+.free-books .box {
+    width: 95%;
+    height: 70vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+/*  */
+.free-books .box .card {
+    width: 350px;
+    height: 480px;
+    text-align: center;
+    padding: 5px;
+    border: 3px solid transparent;
+    margin: auto 20px;
+    box-shadow: 0 0 5px #171a1c;
+}
+
+.free-books .box .card:hover {
+    box-shadow: 0  0  10px #ffffff;
+}
+
+.free-books .box .card .img img{
+    width: 150px; 
+    box-shadow: 0px 0px 5px #22282a, 0px 0px 15px #858585;
+}
+
+.free-books .box .card .tag h2{
+    text-align: center;
+    margin: 12px;
+    font-size: 25px;
+}
+
+.free-books .box .card .category{
+    text-align: center;
+    
+}
+
+.free-books .box .card .tag .writer{
+    text-align: center;
+    margin-top: 8px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+.free-books .box .card .tag .download-btn{
+    padding: 8px 20px;
+    border: 1px solid #ff274b;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ff274b;
+    border-radius: 20px;
+    display: inline-block;
+    transition: transform.4s ;
+    
+    
+}
+
+.free-books .box .card .tag .download-btn:hover{
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 5px;
+    background-color: #171a1c;
+}
+
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb{
+    background: #ff274b;
+    border-radius: 10px;
+}

@@ -1,0 +1,185 @@
+/* Nabil's Section Start */
+:root{
+    --primarycolor:#ff274b;
+    --secondarycolor:#f7bcf7;
+    --lightcolor:#ffffff;
+    --bgcolor-1:#171a1c;
+    --bgcolor:#22282a;
+    --padding: 8%;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "josefin sans", sans-serif;
+    font-size: 16px;
+    color:var(--lightcolor);
+}
+.home{
+    width:100%;
+    height:100vh;
+    background-color: var(--bgcolor-1);
+    display: flex;
+    flex-direction: column;
+}
+span {
+    color:var(--primarycolor);
+}
+h2{
+    font-size: 2.0rem;
+    letter-spacing:0.12rem;
+    cursor: pointer;
+    padding-left: 1.0rem;
+}
+nav{
+    
+    padding-top: 2.8rem;
+    /* padding-left: var(--padding);
+    padding-right: var(--padding); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin:0.8rem 1.0rem;  
+    /* margin-right: 10px; */
+    
+}
+nav ul li a{
+    color:var(--lightcolor);
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+nav ul li a:hover{
+    color:var(--primarycolor);
+}
+/* Nabil's Section end part 1 */
+/* Hady's Section start */
+.fa-solid{
+    font-size:15px; 
+    color: #ffffff;
+    padding: 10px;
+}
+
+.fa-solid:hover{
+    color: #ff274b;
+   
+}
+
+.searchbox{
+    position: relative; 
+    /* width: 200px; */
+}
+
+.searchtext{
+    width: 150px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    transition: all 0.2s linear;
+    background-color: transparent;
+    color: #ff274b;
+    font-weight: bold;
+}
+
+
+.banner{
+    width:100%;
+    height:100%;
+    display: inline-block;
+    background-color: var(--bgcolor-1);
+}
+.banner h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    
+}
+.banner-text{
+    width: 100%;
+    height: 100%;
+    padding: 70px 0px;
+}
+
+.banner-text img {
+    width: 1000px;
+    height: auto;
+    padding-top: 70px;
+    margin: auto;
+    display: flex;
+    
+}
+
+.banner-text h2{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    letter-spacing: 1px;
+    
+}
+
+.banner-text p{
+    font-size: 25px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-text h3{
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-text h4{
+    font-size: 20px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+.banner-text .banner-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.banner-text .banner-btn .btn{
+    padding: 8px 20px;
+    text-decoration: none;
+    background-color: #ff274b;
+    color: #ffffff;
+    border-radius: 20px;
+    display: inline-block;
+    transition: transform.4s;
+    margin-right: 30px;
+}
+
+.banner-text .banner-btn .btn:hover{
+    transform: scale(1.1);
+}
+
+.banner-text .banner-btn .learn-btn{
+    padding: 8px 20px;
+    text-decoration: none;
+    background-color: #ff274b;
+    color: #ffffff;
+    border-radius: 20px;
+    display: inline-block;
+    transition: transform.4s;
+    box-shadow: 0px 0px 5px #ff274b;
+}
+
+.banner-text .banner-btn .learn-btn:hover{
+    transform: scale(1.1);
+}

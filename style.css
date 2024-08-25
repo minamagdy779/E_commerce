@@ -1,0 +1,467 @@
+/* Nabil's Section starts part1 */
+:root{
+    --primarycolor:#ff274b;
+    --secondarycolor:#f7bcf7;
+    --lightcolor:#ffffff;
+    --bgcolor-1:#171a1c;
+    --bgcolor:#22282a;
+    --padding: 8%;
+}
+*{
+    margin:0; /* space outside the border*/
+    padding:0; /* space inside the border*/
+    box-sizing: border-box; /* takes up the right width and height */
+}
+html{
+    font-family: "josefin sans", sans-serif;
+    font-size: 16px;
+    color:var(--lightcolor);
+}
+.home{
+    width:100%;
+    height:100vh;
+    background-color: var(--bgcolor-1);
+    display: flex; 
+    flex-direction: column;
+}
+span {
+    color:var(--primarycolor);
+}
+h2{
+    font-size: 2.0rem; 
+    letter-spacing:0.12rem;
+    cursor: pointer ; /*shows a pointer when hovering over h2  */
+    padding-left: 1.0rem;
+}
+nav{
+    
+    padding-top: 2.8rem;
+    /* padding-left: var(--padding);
+    padding-right: var(--padding); */
+    display: flex;
+    justify-content: space-between; /* to make a space only between the elements*/  
+    align-items: center;
+     
+}
+nav ul li{
+    list-style-type: none; /* to remove the bullets beside the list items*/
+    display: inline-block; /* element does not take much width only take the necessary*/
+    margin:0.8rem 1.0rem;  
+    
+    
+}
+nav ul li a{
+    color:var(--lightcolor);
+    text-decoration: none; 
+    text-transform: capitalize; /* capitalize the first letter */
+    transition: 0.4s; /* change the property of an element over a given time when hover*/
+}
+nav ul li a:hover{
+    color:var(--primarycolor);
+}
+/* Nabil's Section ends part1 */
+/* Hady's Section start */
+.fa-solid{
+    font-size:15px; 
+    color: #ffffff;
+    padding: 10px;
+}
+
+.fa-solid:hover{
+    color: #ff274b;
+   
+}
+
+.searchbox{
+    position: relative; /* gives the element its natural position*/
+    
+}
+
+.searchtext{
+    width: 150px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #ff274b;
+    font-weight: bold;
+}
+
+/* Hady's Section ends */
+/* Nabil's Section starts part2 */
+.content{
+    flex-grow: 1; /* stretch to the width*/
+    padding:0 var(--padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h4{
+    font-size: 2.2rem;
+    margin:1.7rem 0;
+    letter-spacing: 0.12rem; /* space between letters*/
+}
+
+.container-images img{ /* a container around the img*/
+    width: 450px;
+    height: 400px;
+}
+/* Nabil's Section starts part2 */
+
+/* Hady's Section starts part2 */
+/* Adjust the section width and height */
+.freebooks {
+    width:100%;
+    height:100vh;
+    background-color: var(--bgcolor-1);
+    
+}
+/* centering h1 */
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+/* setting the div width and height*/
+.free-books{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0px;
+}
+/* setting the box to give a slide show (الهيكل)*/
+.free-books .box {
+    width: 95%; 
+    height: 70vh;
+    margin: 0 auto; /* gives  it its normal margin*/
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; /* to put the img nest to each other */
+    overflow: hidden; /* so it wont pass its width*/
+    /* overflow-x is set to scroll for a slide show */
+    overflow-x: scroll;
+}
+/* setting the card  */
+.free-books .box .card {
+    width: 350px;
+    height: 480px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid transparent; 
+    margin: auto 20px;
+    box-shadow: 0 0 5px #171a1c;
+}
+
+.free-books .box .card:hover {
+    box-shadow: 0  0  10px #ffffff;
+}
+
+.free-books .box .card .img img{
+    width: 150px; 
+    box-shadow: 0px 0px 5px #22282a, 0px 0px 15px #858585;
+}
+
+.free-books .box .card .tag h2{ /* books name*/
+    text-align: center;
+    margin: 12px;
+    font-size: 25px;
+}
+
+.free-books .box .card .category{ 
+    text-align: center;
+    
+}
+
+.free-books .box .card .tag .writer{
+    text-align: center;
+    margin-top: 8px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+.free-books .box .card .tag .download-btn{
+    padding: 8px 20px;
+    border: 1px solid #ff274b;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ff274b;
+    border-radius: 20px;
+    display: inline-block;
+    transition: transform.4s ; /*change elements property over time given */
+    
+    
+}
+
+.free-books .box .card .tag .download-btn:hover{
+    transform: scale(1.1);  /* to increase the size of the button when hover*/
+    opacity: 0.7; 
+}
+/* webkit attribute  to style the scroll */
+::-webkit-scrollbar{
+    width: 10px;
+    height: 5px;
+    background-color: #171a1c;
+}
+
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb{
+    background: #ff274b;
+    border-radius: 10px;
+}
+
+/* Hady's Section ends part2 */
+
+
+
+/* basmala's Section starts */
+body{
+    background-color: #171a1c;
+}
+h5{
+    font-size: 45px;
+    text-align: center;
+}
+
+#bookscontent{
+    margin:auto;
+    width: 1000px;
+    
+}
+
+#bookscontent ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+#bookscontent ul li {
+    float: left;
+    margin: auto;
+    height: 380px;
+    padding: 35px;
+}
+
+#bookscontent ul li img{
+    width: 150px;
+    margin-left: 50px;
+    margin-right:50px;
+    height: 200px;
+    box-shadow: 0px 0px 5px #22282a , 0px 0px 15px #858585;/* horizontal and vertical is set to 0 and 5px for blur*/
+    text-decoration: none;
+    transition: transform.4s;
+}
+
+#bookscontent ul li img:hover{
+    transform: scale(1.1);
+}
+
+#bookscontent ul li h1{
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#bookscontent ul li .pp{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+#bookscontent ul li p{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+.btn{
+    margin-left: 70px;
+    display: inline-block;
+    border: 1px solid transparent;
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: #ff274b;
+    color: #ffffff;
+    box-shadow:0px 0px 5px  #ff274b;
+    text-decoration: none;
+    transition: transform.4s;
+
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+/* basmala's Section ends */
+
+/* bassant's Section starts */
+.banner{
+    width:100%;
+    height:100%;
+    display: inline-block;
+    background-color: var(--bgcolor-1);
+}
+.banner h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    padding: 50px;
+    margin: 50px;
+
+}
+.banner-text{
+    width: 100%;
+    height: 100%;
+    padding: 70px 0px;
+}
+
+.banner-text img {
+    width: 1000px;
+    height: auto;
+    padding-top: 70px;
+    margin: auto;
+    display: flex;
+    
+}
+
+.banner-text h2{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    letter-spacing: 1px;
+    
+}
+
+.banner-text p{
+    font-size: 25px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-text h3{
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-text h4{
+    font-size: 20px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+.banner-text .banner-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.banner-text .banner-btn .btn{
+    padding: 8px 20px;
+    text-decoration: none;
+    background-color: #ff274b;
+    color: #ffffff;
+    border-radius: 20px;
+    display: inline-block;
+    transition: transform.4s;
+    margin-right: 30px;
+}
+
+.banner-text .banner-btn .btn:hover{
+    transform: scale(1.1);
+}
+
+.banner-text .banner-btn .learn-btn{
+    padding: 8px 20px;
+    text-decoration: none;
+    background-color: #ff274b;
+    color: #ffffff;
+    border-radius: 20px;
+    display: inline-block;
+    transition: transform.4s;
+    box-shadow: 0px 0px 5px #ff274b;
+}
+
+.banner-text .banner-btn .learn-btn:hover{
+    transform: scale(1.1);
+}
+
+/* bassant's Section ends */
+
+
+/* Omar's section starts*/
+
+
+.contact{
+    width: 100%;
+    height: 100%;
+    background-color: var(--bgcolor-1);
+}
+h3{
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container {
+    width: 100%;
+    height: 100%;
+    border-radius:5px;
+    background: linear-gradient(to top left, #990000 32%, #000000 84%);
+    padding: 20px;
+    
+  }
+.container form{
+    width: 100%;
+    height: 100%;
+}
+
+/* .container label{
+    font-size: 20px;
+    font-weight: bold;
+    display: grid;
+  
+} */
+.container input[type=text], select, textarea {
+    display: grid;
+    background-color: #22282a;
+    color: #ffffff;
+    width: 600px;
+    padding: 10px;
+    border: 1px solid #22282a;
+    border-radius: 10px;
+    outline: none; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+.container input[type=submit] {
+    
+    background-color: #171a1c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform.4s;
+  }
+  
+.container input[type=submit]:hover {
+    background-color:#ff274b;
+    transform: scale(1.1);
+  }
+/* Omar's section ends*/

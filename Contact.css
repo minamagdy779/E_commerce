@@ -1,0 +1,123 @@
+:root{
+    --primarycolor:#ff274b;
+    --secondarycolor:#f7bcf7;
+    --lightcolor:#ffffff;
+    --bgcolor-1:#171a1c;
+    --bgcolor:#22282a;
+    --pading: 8%;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "josefin sans", sans-serif;
+    font-size: 16px;
+    color:var(--lightcolor);
+}
+.home{
+    width:100%;
+    height:20vh;
+    background-color: var(--bgcolor-1);
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    
+    padding-top: 2.8rem;
+    /* padding-left: var(--pading);
+    padding-right: var(--pading); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin:0.8rem 1.5rem;
+
+}
+nav ul li a{
+    color:var(--lightcolor);
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+nav ul li a:hover{
+    color:var(--primarycolor);
+}
+.content{
+    flex-grow: 1;
+    padding:0 var(--pading);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h4{
+    font-size: 2.2rem;
+    margin:1.7rem 0;
+    letter-spacing: 0.12rem;
+}
+.contact{
+    width: 100%;
+    height: 100%;
+    background-color: var(--bgcolor-1);
+}
+h3{
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container {
+    width: 100%;
+    height: 100%;
+    border-radius:5px;
+    background: linear-gradient(to top left, #990000 32%, #000000 84%);
+    padding: 20px;
+    
+  }
+.container form{
+    width: 100%;
+    height: 100%;
+}
+/* .container label{
+    font-size: 20px;
+    font-weight: bold;
+    display: grid;
+  
+} */
+.container input[type=text], select, textarea {
+    display: grid;
+    background-color: #22282a;
+    color: #ffffff;
+    width: 600px;
+    padding: 10px;
+    border: 1px solid #22282a;
+    border-radius: 10px;
+    outline: none; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+.container input[type=submit] {
+    
+    background-color: #171a1c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform.4s;
+  }
+  
+.container input[type=submit]:hover {
+    background-color:#ff274b;
+    transform: scale(1.1);
+  }
